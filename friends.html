@@ -24,16 +24,11 @@
         .styled-table tr:nth-child(even) {
             background-color: #EDEDED;  
         }
-        h1 {
-            text-align: center;
-      font-size: 22px;
-        }
+       
         a {
             text-transform: uppercase;
         }
-        h2 {
-            text-align: center;
-        }
+        
         table {
             border-collapse: collapse;
             width: 100%;
@@ -46,15 +41,47 @@
             padding: 10%;
         }
         
-        td:last-child{
-            text-align: right;
+        .styled-table {
+            border-collapse: collapse; 
+            width: 100%; 
+        }
 
+        .styled-table th, .styled-table td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center; 
+        }
+
+       
+        th {
+          background:green;
+          color: red;
+          font-weight: 500;
+        }
+        table td:last-child {
+         text-align: right;
+        }
+
+        
+        .styled-table tr:nth-child(even) {
+            background-color: #EDEDED; 
+        }
+    
+        h1 {
+            text-align: center ;
+            font-size: 22px;
+        }
+        #back{
+            font-style: italic;
+        }
+        h2{
+           text-align: center ;
         }
     </style>
 </head>
 <body>
     <h1>Друзі Sivaeva Ella Leonidivna</h1>
-    <a href="index.html">Назад на головну</a>
+    <a href="index.html"> <i>Назад на головну</i></a>
     <h2>Мої друзі</h2>
     <table class="styled-table">
         <caption>Мої друзі</caption>
